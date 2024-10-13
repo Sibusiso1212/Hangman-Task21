@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*Change curser of button to pointer*/
+button{
+  cursor: pointer;
+}
+
+/*Display size of the display word*/
+.guessWordDisplay{
+  font-size: 2em;
+}
+
+/*Set the buttons colors and font*/
+.alphabet-0{
+ color:blue;
+}
+.alphabet-1{
+  background-color: lime;
+}
+.alphabet-2{
+  background-color: red;
+}
+.helpButton{
+  color:blue;
+  font-weight: bolder;
+}
+
+/*Set the image size and padding*/
+.hangmanImage{
+  width: 150px;
+  height: 250px;
+}
+.gameOverImage{
+  width: 250px;
+  height: 250px;
+}
